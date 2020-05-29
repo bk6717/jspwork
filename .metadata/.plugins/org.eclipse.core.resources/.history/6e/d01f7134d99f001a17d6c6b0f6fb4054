@@ -1,0 +1,10 @@
+package ch04;
+
+import lombok.AllArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class Users {
+
+}

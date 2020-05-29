@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>post test</title>
+</head>
+<body>
+<form action ="postman" methid = "post">   
+	<input type = "text" name = "username" placeholder = "username"/>
+	<input type = "submit" value = "전송"/>
+</form>
+</body>
+</html>

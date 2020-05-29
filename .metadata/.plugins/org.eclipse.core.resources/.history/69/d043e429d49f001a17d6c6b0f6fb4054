@@ -1,0 +1,36 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="oracle.net.nt.ConnectDescription"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%
+	String username = request.getParameter("username");
+	String password = request.getParameter("password");
+	String email = request.getParameter("email");
+	//DB연결
+	final String SQL = "INSERT INTO users(id, username, password, email) values(?,?,?,?)";
+	
+	Class.forName("oracle.jdbc.driver.OracleDriver");
+	Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","cos","bitc5600");
+	
+	//DB에 insert
+	PreparedStatement pstmt = conn.prepareStatement(SQL);
+	pstmt.setInt(1, 1);
+	pstmt.setString(2.username);
+	pstmt.setString(3.password);
+	pstmt.setString(4,email);
+	int result = pstmt.executeUpdate();
+%>
+
+ 
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

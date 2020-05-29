@@ -1,0 +1,16 @@
+package com.cos.blog.action.board;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class BoardHomeAction implements Action{
+	public void execute(HttpServletRequest request, HttpServletResponse response ) {
+		//1. DB연결해서 Board 목록 다불러와서 
+		//2. request에 담고 
+		//3. 이동 home.jsp
+		RequestDispatcher dis =
+			request.getRequestDispatcher("home");
+		dis.forward(request, response);
+	}
+}

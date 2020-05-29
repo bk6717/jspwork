@@ -1,0 +1,22 @@
+package com.cos.blog.utill;
+
+import java.io.PrintWriter;
+
+import javax.servlet.http.HttpServletResponse;
+
+public class Script {
+	public static void back(String msg,HttpServletResponse response) {
+		try {
+			PrintWriter out = response.getWriter();
+			response.setCharacterEncoding("utf-8");
+			response.setCharacterEncoding("text/html; charset=utf-8");
+			out.print("<script>");
+			out.print("alert('"+msg+"');");
+			out.print("history.back();");
+			out.print("</script>");	
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		
+	}
+}
