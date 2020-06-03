@@ -25,5 +25,6 @@ public class LoveUserRepository {
 	public int save(LoveUsers users) {
 		final String SQL = "INSERT INTO USERS(id,username,password, email, address, userRole,createDate)"+
 							"valuse(USERS_SEQ.nextval,?,?,?,?,?,sysdate)";
+		return -1;
 	}
 }

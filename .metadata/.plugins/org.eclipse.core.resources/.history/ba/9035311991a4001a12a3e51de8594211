@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+
+<div id = "reply-1">
+	첫번째 댓글입니다.
+</div>
+
+<input type = "text" id = "tf-reply"> <br/>
+<button onclick = "start()"> 댓글 쓰기 </button>
+
+<script>
+function start(){
+	var a = $('#tf-reply').val();
+	$('#reply-1').after("<div id = 'reply-2'>"+a+"</div>");	
+}
+</script>
+
+</body>
+</html>
