@@ -19,3 +19,5 @@ C:\src\jspwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\176914451.i
 \ch03\src
 C:\src\jspwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1411811451.index
 \jspTest\src
+C:\src\jspwork\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\83170155.index
+\blog\src

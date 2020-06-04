@@ -2,5 +2,5 @@
     pageEncoding="UTF-8"%>
 
 <%
-	//response.sendRedirect("/blog/board?cmd=home");
+	response.sendRedirect("/blog/board?cmd=home");
 %>

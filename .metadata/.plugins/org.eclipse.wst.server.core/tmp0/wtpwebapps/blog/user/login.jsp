@@ -5,7 +5,7 @@
 <%@ include file = "../include/nav.jsp" %> <!--  상대경로.. -->
 <div class = container>
 
-<form action="/blog/user?cmd=LoginProc" method = "post" class="was-validated">
+<form action="/blog/user?cmd=loginProc" method = "post" class="was-validated">
   <div class="form-group">
     <label for="username">Username:</label>
     <input type="text" value = "${cookie.remember.value}" class="form-control" id="username" placeholder="Enter username" name="username" required>

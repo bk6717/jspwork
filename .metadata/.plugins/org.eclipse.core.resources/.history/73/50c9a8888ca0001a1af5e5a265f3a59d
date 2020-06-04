@@ -1,9 +1,0 @@
-package com.cos.blog.repository;
-
-public class UsersRepository {
-	private static UsersRepository instance = new UsersRepository();
-	private UsersRepository() {}
-	public static UsersRepository getInstance() {
-		return instance;
-	}
-}
