@@ -1,0 +1,20 @@
+package com.cos.blog.test;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.junit.Test;
+
+
+public class JSoipParserTest {
+	@Test
+	public void html파서() {
+		String content = "<p>test</p>";
+		Document doc = Jsoup.parse(content);
+		System.out.println(doc.toString());
+		
+		Element els = doc.select("p");
+		Element el = els.get
+	}
+	
+}
