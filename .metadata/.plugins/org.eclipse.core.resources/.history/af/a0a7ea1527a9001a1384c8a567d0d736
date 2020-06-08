@@ -1,0 +1,23 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<%@ include file="../include/nav.jsp"%>
+
+
+<div class="container">
+	<button class="btn btn-warning">수정</button>
+	<button class="btn btn-danger">삭제</button>
+<br/><br/>
+<h6>작성자 : ssar</h6>
+<br/>
+	<h2>제목입니다.</h2>
+	
+	<div class="form-group">
+		<div class="container p-3 my-3 border">내용입니다.</div>
+	</div>
+
+
+	
+</form>
+
+</div>
+<%@ include file="../include/footer.jsp"%>

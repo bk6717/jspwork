@@ -21,10 +21,16 @@
   </div>
   
   
-  
   <div class="form-group form-check">
     <label class="form-check-label">
+    <c:choose>
+     <c:when test ="${empty cookie.remember}">
       <input class="form-check-input" type="checkbox" name="remember"> 아이디 기억하기
+     </c:when>
+     <c:otherwise>
+     <input class="form-check-input" type="checkbox" name="remember" checked> 아이디 기억하기
+     </c:otherwise>
+     </c:choose> 
     </label>
   </div>
   <button type="submit" class="btn btn-primary">완료</button>

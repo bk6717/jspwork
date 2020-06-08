@@ -93,3 +93,7 @@ Caused by: java.lang.Exception: Resource '/ch03' does not exist.
 2020-06-05 12:17:09,850 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, 지정된 파일을 찾을 수 없습니다
 2020-06-05 12:20:54,471 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2020-06-05 12:20:58,457 [Worker-1: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, 지정된 파일을 찾을 수 없습니다
+2020-06-05 12:38:45,365 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-06-05 12:38:50,129 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, 지정된 파일을 찾을 수 없습니다
+2020-06-08 09:12:33,919 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-06-08 09:12:43,748 [Worker-4: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, 지정된 파일을 찾을 수 없습니다
