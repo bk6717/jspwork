@@ -17,13 +17,13 @@
 
 	<div class="form-group">
 		<label for="content"> Content: </label>
+		
 		<!-- textarea는 태그 사이에 넣는다. -->  
 		<textarea class="form-control" rows="5" id="content" name="content">
-		${dto.board.content} 
+		${dto.board.content}
 		</textarea>  
 	</div>
 	
-
 	<button type="submit" class="btn btn-primary">수정하기</button>
 	
 </form>

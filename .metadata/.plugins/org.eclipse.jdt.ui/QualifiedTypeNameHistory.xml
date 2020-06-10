@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-<fullyQualifiedTypeName name="com.google.gson.Gson"/>
-<fullyQualifiedTypeName name="com.cos.ch03.User"/>
-<fullyQualifiedTypeName name="com.sun.org.apache.regexp.internal.recompile"/>
-<fullyQualifiedTypeName name="com.cos.blog.db.DBConn"/>
 <fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.schemagen.xmlschema.List"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
@@ -25,7 +20,6 @@
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="org.apache.catalina.User"/>
-<fullyQualifiedTypeName name="org.apache.tomcat.jni.User"/>
 <fullyQualifiedTypeName name="com.cos.blog.model.LoveUsers"/>
 <fullyQualifiedTypeName name="lombok.Data"/>
 <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
@@ -33,22 +27,17 @@
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="com.cos.blog.repository.UsersRepository"/>
 <fullyQualifiedTypeName name="com.cos.blog.action.user.UsersUsernameCheckAction"/>
 <fullyQualifiedTypeName name="com.cos.blog.action.user.UsersLogoutAction"/>
 <fullyQualifiedTypeName name="com.cos.blog.action.board.BoardWriteAction"/>
-<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
 <fullyQualifiedTypeName name="java.lang.Exception"/>
-<fullyQualifiedTypeName name="com.cos.blog.action.Action"/>
 <fullyQualifiedTypeName name="com.cos.blog.action.board.BoardWriteProcAction"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.Principal"/>
 <fullyQualifiedTypeName name="javafx.scene.layout.BorderRepeat"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.security.Principal"/>
 <fullyQualifiedTypeName name="javax.websocket.Session"/>
 <fullyQualifiedTypeName name="com.cos.blog.model.Users"/>
-<fullyQualifiedTypeName name="com.cos.blog.utill.Script"/>
 <fullyQualifiedTypeName name="com.cos.blog.repository.BoardRepository"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
@@ -60,4 +49,15 @@
 <fullyQualifiedTypeName name="org.jsoup.nodes.Document"/>
 <fullyQualifiedTypeName name="org.jsoup.select.Elements"/>
 <fullyQualifiedTypeName name="org.jsoup.Jsoup"/>
+<fullyQualifiedTypeName name="com.cos.blog.action.user.UserUpdateAction"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="sun.security.util.Password"/>
+<fullyQualifiedTypeName name="com.cos.blog.action.Action"/>
+<fullyQualifiedTypeName name="com.cos.blog.action.user.UserUpdateProcAction"/>
+<fullyQualifiedTypeName name="com.cos.blog.repository.UsersRepository"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="com.cos.blog.utill.Script"/>
+<fullyQualifiedTypeName name="org.apache.tomcat.jni.User"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
